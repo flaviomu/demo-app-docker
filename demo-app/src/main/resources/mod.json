@@ -1,0 +1,6 @@
+{
+    "owner": "org.demo-owner", 
+    "version": "0.1", 
+    "name": "demo-app",
+    "main": "server.js"
+}
