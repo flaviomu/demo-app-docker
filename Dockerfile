@@ -3,7 +3,7 @@
 #
 
 # Pull base image.
-FROM nubomedia/openxsp:v1
+FROM nubomedia/openxsp
 
 MAINTAINER Nubomedia
 
