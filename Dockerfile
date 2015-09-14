@@ -3,7 +3,8 @@
 #
 
 # Pull base image.
-FROM nubomedia/openxsp
+#FROM nubomedia/openxsp:v1
+FROM alincalinciuc/openstack_signaling_plane
 
 MAINTAINER Nubomedia
 

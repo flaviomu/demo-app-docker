@@ -1,0 +1,13 @@
+#
+# Vert.x Dockerfile
+#
+
+# Pull base image.
+FROM java:7
+
+
+# Expose
+EXPOSE 8080
+
+# Run
+CMD ["echo Hello"]
