@@ -3,19 +3,18 @@
 #
 
 # Pull base image.
-#FROM nubomedia/openxsp:v1
-FROM alincalinciuc/openstack_signaling_plane
+FROM flaviomu/nubomedia-signaling-plane:v1
 
 MAINTAINER Nubomedia
 
-WORKDIR /root
+WORKDIR /opt
 
 # Add app
-ADD demo-app /root/signaling-plane/modules/demo-app
-ADD demo-app.run /root/
+ADD demo-app /opt/signaling-plane/modules/demo-app
+ADD demo-app.run /opt/signaling-plane/modules/demo-app/
 
 # Expose
 EXPOSE 8080
 
 # Run
-CMD ["/root/demo-app.run"]
+CMD ["/opt/signaling-plane/modules/demo-app/demo-app.run"]
